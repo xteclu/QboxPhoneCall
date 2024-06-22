@@ -879,68 +879,6 @@
             "init_kind": "Designated"
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(url:token:options:testingIceServers:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CallController",
-                "printedName": "QboxPhoneCall.CallController",
-                "usr": "s:13QboxPhoneCall0C10ControllerC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[QboxPhoneCall.CallControllerOption]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CallControllerOption",
-                    "printedName": "QboxPhoneCall.CallControllerOption",
-                    "usr": "s:13QboxPhoneCall0C16ControllerOptionO"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[WebRTC.RTCIceServer]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "RTCIceServer",
-                    "printedName": "WebRTC.RTCIceServer",
-                    "usr": "c:objc(cs)RTCIceServer"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13QboxPhoneCall0C10ControllerC3url5token7options17testingIceServersACSS_SSSayAA0cD6OptionOGSaySo12RTCIceServerCGtcfc",
-            "mangledName": "$s13QboxPhoneCall0C10ControllerC3url5token7options17testingIceServersACSS_SSSayAA0cD6OptionOGSaySo12RTCIceServerCGtcfc",
-            "moduleName": "QboxPhoneCall",
-            "declAttributes": [
-              "Required",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
             "kind": "Function",
             "name": "setAudioInput",
             "printedName": "setAudioInput(isEnabled:)",
