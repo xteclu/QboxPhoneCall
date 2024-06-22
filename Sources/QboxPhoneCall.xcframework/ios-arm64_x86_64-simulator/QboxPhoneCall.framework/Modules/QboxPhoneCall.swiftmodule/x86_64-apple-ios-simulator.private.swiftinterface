@@ -9,7 +9,36 @@ import WebRTC
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class CallController {
+public protocol LoggerDelegate {
+  func loggerError(_ module: Swift.String, message: Swift.String)
+  func loggerDebug(_ module: Swift.String, message: Swift.String)
+}
+@_hasMissingDesignatedInitializers public class Logger {
+  public static var delegate: (any QboxPhoneCall.LoggerDelegate)?
+  @objc deinit
+}
+public enum LogModule : Swift.String {
+  case RTCClient, SocketClient, HTTPClient, CallController
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol CallControllerDelegate {
+  func callControllerDidConnect()
+}
+public enum CallControllerOption {
+  case defaultToSpeaker
+  public static func == (a: QboxPhoneCall.CallControllerOption, b: QboxPhoneCall.CallControllerOption) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class CallController {
+  required public init(url: Swift.String, token socketToken: Swift.String, options controllerOptions: [QboxPhoneCall.CallControllerOption])
+  required public init(url: Swift.String, token socketToken: Swift.String, options controllerOptions: [QboxPhoneCall.CallControllerOption], testingIceServers: [WebRTC.RTCIceServer])
   @objc deinit
 }
 extension QboxPhoneCall.CallController {
@@ -21,3 +50,8 @@ extension QboxPhoneCall.CallController {
   public func startCall()
   public func endCall()
 }
+extension QboxPhoneCall.LogModule : Swift.Equatable {}
+extension QboxPhoneCall.LogModule : Swift.Hashable {}
+extension QboxPhoneCall.LogModule : Swift.RawRepresentable {}
+extension QboxPhoneCall.CallControllerOption : Swift.Equatable {}
+extension QboxPhoneCall.CallControllerOption : Swift.Hashable {}

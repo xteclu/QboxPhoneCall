@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/QboxPhoneCall.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		9+5fpmbcuBRtwM2sOUf2xtlmEjs=
+		5ozeEKvlOvNS7/UVjPtj3bRsfm8=
 		</data>
 		<key>Modules/QboxPhoneCall.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		eIbgEXQrZrBNQCs6twSR8SXJsPg=
+		QVftkPt9RB/s5lwfBO0azTsLvkg=
 		</data>
 		<key>Modules/QboxPhoneCall.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/QboxPhoneCall.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		eIbgEXQrZrBNQCs6twSR8SXJsPg=
+		QVftkPt9RB/s5lwfBO0azTsLvkg=
 		</data>
 		<key>Modules/QboxPhoneCall.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		1cWOHcYpVEIW/G6kZzUKS90pMWc=
+		G+fZQgqiAI9P9bhUrTFGS6JGRMg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,14 +50,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ndhL94yS+nRvQpB2vEsg9/7uWwtGDLDYFeNR63XwFas=
+			wzONXiYUqauytFdLclq/KGH3Or48peWHrMlh5gqkKts=
 			</data>
 		</dict>
 		<key>Modules/QboxPhoneCall.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J2YL7u5NDFVQgPaj9ua5CbtaPiHbjSjFeBs7KDkHDcU=
+			nb7uhmiTJIkfKRnHAplwET3uARTRRNNF2+k9O2mkbiI=
 			</data>
 		</dict>
 		<key>Modules/QboxPhoneCall.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J2YL7u5NDFVQgPaj9ua5CbtaPiHbjSjFeBs7KDkHDcU=
+			nb7uhmiTJIkfKRnHAplwET3uARTRRNNF2+k9O2mkbiI=
 			</data>
 		</dict>
 		<key>Modules/QboxPhoneCall.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pDytRn6/he4pVJOAFhEyDBV4Z1Frq2UGmnxGMxB2X2I=
+			F/Kbpt16wo5bz92l9D12I84lpp9l91YfQuAahWbJphw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
