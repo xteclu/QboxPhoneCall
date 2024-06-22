@@ -37,6 +37,7 @@ public enum CallControllerOption {
   }
 }
 public class CallController {
+  public var delegate: (any QboxPhoneCall.CallControllerDelegate)?
   required public init(url: Swift.String, token socketToken: Swift.String, options controllerOptions: [QboxPhoneCall.CallControllerOption])
   required public init(url: Swift.String, token socketToken: Swift.String, options controllerOptions: [QboxPhoneCall.CallControllerOption], testingIceServers: [WebRTC.RTCIceServer])
   @objc deinit
