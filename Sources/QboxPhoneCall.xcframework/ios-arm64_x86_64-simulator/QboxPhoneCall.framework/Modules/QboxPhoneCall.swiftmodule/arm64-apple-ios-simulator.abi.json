@@ -1,0 +1,261 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QboxPhoneCall"
+      },
+      {
+        "kind": "Import",
+        "name": "WebRTC",
+        "printedName": "WebRTC",
+        "declKind": "Import",
+        "moduleName": "QboxPhoneCall"
+      },
+      {
+        "kind": "Import",
+        "name": "WebRTC",
+        "printedName": "WebRTC",
+        "declKind": "Import",
+        "moduleName": "QboxPhoneCall"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QboxPhoneCall"
+      },
+      {
+        "kind": "Import",
+        "name": "WebRTC",
+        "printedName": "WebRTC",
+        "declKind": "Import",
+        "moduleName": "QboxPhoneCall"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CallController",
+        "printedName": "CallController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setAudioInput",
+            "printedName": "setAudioInput(isEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall0C10ControllerC13setAudioInput9isEnabledySb_tF",
+            "mangledName": "$s13QboxPhoneCall0C10ControllerC13setAudioInput9isEnabledySb_tF",
+            "moduleName": "QboxPhoneCall",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAudioOutput",
+            "printedName": "setAudioOutput(isEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall0C10ControllerC14setAudioOutput9isEnabledySb_tF",
+            "mangledName": "$s13QboxPhoneCall0C10ControllerC14setAudioOutput9isEnabledySb_tF",
+            "moduleName": "QboxPhoneCall",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSpeaker",
+            "printedName": "setSpeaker(isEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall0C10ControllerC10setSpeaker9isEnabledySb_tF",
+            "mangledName": "$s13QboxPhoneCall0C10ControllerC10setSpeaker9isEnabledySb_tF",
+            "moduleName": "QboxPhoneCall",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "defaultToSpeaker",
+            "printedName": "defaultToSpeaker()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall0C10ControllerC16defaultToSpeakeryyF",
+            "mangledName": "$s13QboxPhoneCall0C10ControllerC16defaultToSpeakeryyF",
+            "moduleName": "QboxPhoneCall",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendDTMF",
+            "printedName": "sendDTMF(digit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall0C10ControllerC8sendDTMF5digitySS_tF",
+            "mangledName": "$s13QboxPhoneCall0C10ControllerC8sendDTMF5digitySS_tF",
+            "moduleName": "QboxPhoneCall",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startCall",
+            "printedName": "startCall()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall0C10ControllerC05startC0yyF",
+            "mangledName": "$s13QboxPhoneCall0C10ControllerC05startC0yyF",
+            "moduleName": "QboxPhoneCall",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "endCall",
+            "printedName": "endCall()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall0C10ControllerC03endC0yyF",
+            "mangledName": "$s13QboxPhoneCall0C10ControllerC03endC0yyF",
+            "moduleName": "QboxPhoneCall",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13QboxPhoneCall0C10ControllerC",
+        "mangledName": "$s13QboxPhoneCall0C10ControllerC",
+        "moduleName": "QboxPhoneCall",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Starscream",
+        "printedName": "Starscream",
+        "declKind": "Import",
+        "moduleName": "QboxPhoneCall"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/QboxPhoneCallSource\/QboxPhoneCall\/RTCClient.swift",
+      "kind": "StringLiteral",
+      "offset": 887,
+      "length": 7,
+      "value": "\"audio\""
+    },
+    {
+      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/QboxPhoneCallSource\/QboxPhoneCall\/CallController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 345,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/QboxPhoneCallSource\/QboxPhoneCall\/SocketClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 342,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

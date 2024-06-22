@@ -1,0 +1,6 @@
+framework module QboxPhoneCall {
+  umbrella header "QboxPhoneCall.h"
+  export *
+
+  module * { export * }
+}
