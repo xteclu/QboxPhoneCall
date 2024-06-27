@@ -34,6 +34,7 @@ public enum CallControllerOption {
   }
 }
 public class CallController {
+  public var delegate: (any QboxPhoneCall.CallControllerDelegate)?
   required public init(ws: any QboxPhoneCall.WebSocketProvider, url: Swift.String, token socketToken: Swift.String, options controllerOptions: [QboxPhoneCall.CallControllerOption])
   @objc deinit
 }
