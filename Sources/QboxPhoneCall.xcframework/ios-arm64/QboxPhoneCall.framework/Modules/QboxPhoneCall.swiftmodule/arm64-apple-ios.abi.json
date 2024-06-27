@@ -5,6 +5,852 @@
     "printedName": "TopLevel",
     "children": [
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QboxPhoneCall"
+      },
+      {
+        "kind": "Import",
+        "name": "WebRTC",
+        "printedName": "WebRTC",
+        "declKind": "Import",
+        "moduleName": "QboxPhoneCall"
+      },
+      {
+        "kind": "Import",
+        "name": "WebRTC",
+        "printedName": "WebRTC",
+        "declKind": "Import",
+        "moduleName": "QboxPhoneCall"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QboxPhoneCall"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QboxPhoneCall"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebSocketProvider",
+        "printedName": "WebSocketProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any QboxPhoneCall.WebSocketProviderDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WebSocketProviderDelegate",
+                    "printedName": "any QboxPhoneCall.WebSocketProviderDelegate",
+                    "usr": "s:13QboxPhoneCall25WebSocketProviderDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13QboxPhoneCall17WebSocketProviderP8delegateAA0deF8Delegate_pSgvp",
+            "mangledName": "$s13QboxPhoneCall17WebSocketProviderP8delegateAA0deF8Delegate_pSgvp",
+            "moduleName": "QboxPhoneCall",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any QboxPhoneCall.WebSocketProviderDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebSocketProviderDelegate",
+                        "printedName": "any QboxPhoneCall.WebSocketProviderDelegate",
+                        "usr": "s:13QboxPhoneCall25WebSocketProviderDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13QboxPhoneCall17WebSocketProviderP8delegateAA0deF8Delegate_pSgvg",
+                "mangledName": "$s13QboxPhoneCall17WebSocketProviderP8delegateAA0deF8Delegate_pSgvg",
+                "moduleName": "QboxPhoneCall",
+                "genericSig": "<τ_0_0 where τ_0_0 : QboxPhoneCall.WebSocketProvider>",
+                "sugared_genericSig": "<Self where Self : QboxPhoneCall.WebSocketProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any QboxPhoneCall.WebSocketProviderDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WebSocketProviderDelegate",
+                        "printedName": "any QboxPhoneCall.WebSocketProviderDelegate",
+                        "usr": "s:13QboxPhoneCall25WebSocketProviderDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13QboxPhoneCall17WebSocketProviderP8delegateAA0deF8Delegate_pSgvs",
+                "mangledName": "$s13QboxPhoneCall17WebSocketProviderP8delegateAA0deF8Delegate_pSgvs",
+                "moduleName": "QboxPhoneCall",
+                "genericSig": "<τ_0_0 where τ_0_0 : QboxPhoneCall.WebSocketProvider>",
+                "sugared_genericSig": "<Self where Self : QboxPhoneCall.WebSocketProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13QboxPhoneCall17WebSocketProviderP8delegateAA0deF8Delegate_pSgvM",
+                "mangledName": "$s13QboxPhoneCall17WebSocketProviderP8delegateAA0deF8Delegate_pSgvM",
+                "moduleName": "QboxPhoneCall",
+                "genericSig": "<τ_0_0 where τ_0_0 : QboxPhoneCall.WebSocketProvider>",
+                "sugared_genericSig": "<Self where Self : QboxPhoneCall.WebSocketProvider>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13QboxPhoneCall17WebSocketProviderPxycfc",
+            "mangledName": "$s13QboxPhoneCall17WebSocketProviderPxycfc",
+            "moduleName": "QboxPhoneCall",
+            "genericSig": "<τ_0_0 where τ_0_0 : QboxPhoneCall.WebSocketProvider>",
+            "sugared_genericSig": "<Self where Self : QboxPhoneCall.WebSocketProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "create",
+            "printedName": "create(request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall17WebSocketProviderP6create7requesty10Foundation10URLRequestV_tF",
+            "mangledName": "$s13QboxPhoneCall17WebSocketProviderP6create7requesty10Foundation10URLRequestV_tF",
+            "moduleName": "QboxPhoneCall",
+            "genericSig": "<τ_0_0 where τ_0_0 : QboxPhoneCall.WebSocketProvider>",
+            "sugared_genericSig": "<Self where Self : QboxPhoneCall.WebSocketProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall17WebSocketProviderP7connectyyF",
+            "mangledName": "$s13QboxPhoneCall17WebSocketProviderP7connectyyF",
+            "moduleName": "QboxPhoneCall",
+            "genericSig": "<τ_0_0 where τ_0_0 : QboxPhoneCall.WebSocketProvider>",
+            "sugared_genericSig": "<Self where Self : QboxPhoneCall.WebSocketProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall17WebSocketProviderP10disconnectyyF",
+            "mangledName": "$s13QboxPhoneCall17WebSocketProviderP10disconnectyyF",
+            "moduleName": "QboxPhoneCall",
+            "genericSig": "<τ_0_0 where τ_0_0 : QboxPhoneCall.WebSocketProvider>",
+            "sugared_genericSig": "<Self where Self : QboxPhoneCall.WebSocketProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(string:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall17WebSocketProviderP4send6stringySS_tF",
+            "mangledName": "$s13QboxPhoneCall17WebSocketProviderP4send6stringySS_tF",
+            "moduleName": "QboxPhoneCall",
+            "genericSig": "<τ_0_0 where τ_0_0 : QboxPhoneCall.WebSocketProvider>",
+            "sugared_genericSig": "<Self where Self : QboxPhoneCall.WebSocketProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13QboxPhoneCall17WebSocketProviderP",
+        "mangledName": "$s13QboxPhoneCall17WebSocketProviderP",
+        "moduleName": "QboxPhoneCall",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WebSocketProviderDelegate",
+        "printedName": "WebSocketProviderDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "webSocketDidConnect",
+            "printedName": "webSocketDidConnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall25WebSocketProviderDelegateP03webE10DidConnectyyF",
+            "mangledName": "$s13QboxPhoneCall25WebSocketProviderDelegateP03webE10DidConnectyyF",
+            "moduleName": "QboxPhoneCall",
+            "genericSig": "<τ_0_0 where τ_0_0 : QboxPhoneCall.WebSocketProviderDelegate>",
+            "sugared_genericSig": "<Self where Self : QboxPhoneCall.WebSocketProviderDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webSocketDidDisconnect",
+            "printedName": "webSocketDidDisconnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall25WebSocketProviderDelegateP03webE13DidDisconnectyyF",
+            "mangledName": "$s13QboxPhoneCall25WebSocketProviderDelegateP03webE13DidDisconnectyyF",
+            "moduleName": "QboxPhoneCall",
+            "genericSig": "<τ_0_0 where τ_0_0 : QboxPhoneCall.WebSocketProviderDelegate>",
+            "sugared_genericSig": "<Self where Self : QboxPhoneCall.WebSocketProviderDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "websocketDidReceiveMessage",
+            "printedName": "websocketDidReceiveMessage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall25WebSocketProviderDelegateP26websocketDidReceiveMessageyySSF",
+            "mangledName": "$s13QboxPhoneCall25WebSocketProviderDelegateP26websocketDidReceiveMessageyySSF",
+            "moduleName": "QboxPhoneCall",
+            "genericSig": "<τ_0_0 where τ_0_0 : QboxPhoneCall.WebSocketProviderDelegate>",
+            "sugared_genericSig": "<Self where Self : QboxPhoneCall.WebSocketProviderDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "websocketDidReceiveData",
+            "printedName": "websocketDidReceiveData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall25WebSocketProviderDelegateP23websocketDidReceiveDatayy10Foundation0K0VF",
+            "mangledName": "$s13QboxPhoneCall25WebSocketProviderDelegateP23websocketDidReceiveDatayy10Foundation0K0VF",
+            "moduleName": "QboxPhoneCall",
+            "genericSig": "<τ_0_0 where τ_0_0 : QboxPhoneCall.WebSocketProviderDelegate>",
+            "sugared_genericSig": "<Self where Self : QboxPhoneCall.WebSocketProviderDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13QboxPhoneCall25WebSocketProviderDelegateP",
+        "mangledName": "$s13QboxPhoneCall25WebSocketProviderDelegateP",
+        "moduleName": "QboxPhoneCall",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebRTC",
+        "printedName": "WebRTC",
+        "declKind": "Import",
+        "moduleName": "QboxPhoneCall"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CallControllerDelegate",
+        "printedName": "CallControllerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "callControllerDidConnect",
+            "printedName": "callControllerDidConnect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall0C18ControllerDelegateP04callD10DidConnectyyF",
+            "mangledName": "$s13QboxPhoneCall0C18ControllerDelegateP04callD10DidConnectyyF",
+            "moduleName": "QboxPhoneCall",
+            "genericSig": "<τ_0_0 where τ_0_0 : QboxPhoneCall.CallControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : QboxPhoneCall.CallControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13QboxPhoneCall0C18ControllerDelegateP",
+        "mangledName": "$s13QboxPhoneCall0C18ControllerDelegateP",
+        "moduleName": "QboxPhoneCall",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CallControllerOption",
+        "printedName": "CallControllerOption",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "defaultToSpeaker",
+            "printedName": "defaultToSpeaker",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(QboxPhoneCall.CallControllerOption.Type) -> QboxPhoneCall.CallControllerOption",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CallControllerOption",
+                    "printedName": "QboxPhoneCall.CallControllerOption",
+                    "usr": "s:13QboxPhoneCall0C16ControllerOptionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "QboxPhoneCall.CallControllerOption.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CallControllerOption",
+                        "printedName": "QboxPhoneCall.CallControllerOption",
+                        "usr": "s:13QboxPhoneCall0C16ControllerOptionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13QboxPhoneCall0C16ControllerOptionO16defaultToSpeakeryA2CmF",
+            "mangledName": "$s13QboxPhoneCall0C16ControllerOptionO16defaultToSpeakeryA2CmF",
+            "moduleName": "QboxPhoneCall"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CallControllerOption",
+                "printedName": "QboxPhoneCall.CallControllerOption",
+                "usr": "s:13QboxPhoneCall0C16ControllerOptionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CallControllerOption",
+                "printedName": "QboxPhoneCall.CallControllerOption",
+                "usr": "s:13QboxPhoneCall0C16ControllerOptionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall0C16ControllerOptionO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13QboxPhoneCall0C16ControllerOptionO2eeoiySbAC_ACtFZ",
+            "moduleName": "QboxPhoneCall",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13QboxPhoneCall0C16ControllerOptionO9hashValueSivp",
+            "mangledName": "$s13QboxPhoneCall0C16ControllerOptionO9hashValueSivp",
+            "moduleName": "QboxPhoneCall",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13QboxPhoneCall0C16ControllerOptionO9hashValueSivg",
+                "mangledName": "$s13QboxPhoneCall0C16ControllerOptionO9hashValueSivg",
+                "moduleName": "QboxPhoneCall",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall0C16ControllerOptionO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13QboxPhoneCall0C16ControllerOptionO4hash4intoys6HasherVz_tF",
+            "moduleName": "QboxPhoneCall",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13QboxPhoneCall0C16ControllerOptionO",
+        "mangledName": "$s13QboxPhoneCall0C16ControllerOptionO",
+        "moduleName": "QboxPhoneCall",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CallController",
+        "printedName": "CallController",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(ws:url:token:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CallController",
+                "printedName": "QboxPhoneCall.CallController",
+                "usr": "s:13QboxPhoneCall0C10ControllerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WebSocketProvider",
+                "printedName": "any QboxPhoneCall.WebSocketProvider",
+                "usr": "s:13QboxPhoneCall17WebSocketProviderP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[QboxPhoneCall.CallControllerOption]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CallControllerOption",
+                    "printedName": "QboxPhoneCall.CallControllerOption",
+                    "usr": "s:13QboxPhoneCall0C16ControllerOptionO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13QboxPhoneCall0C10ControllerC2ws3url5token7optionsAcA17WebSocketProvider_p_S2SSayAA0cD6OptionOGtcfc",
+            "mangledName": "$s13QboxPhoneCall0C10ControllerC2ws3url5token7optionsAcA17WebSocketProvider_p_S2SSayAA0cD6OptionOGtcfc",
+            "moduleName": "QboxPhoneCall",
+            "declAttributes": [
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setAudioInput",
+            "printedName": "setAudioInput(isEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall0C10ControllerC13setAudioInput9isEnabledySb_tF",
+            "mangledName": "$s13QboxPhoneCall0C10ControllerC13setAudioInput9isEnabledySb_tF",
+            "moduleName": "QboxPhoneCall",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAudioOutput",
+            "printedName": "setAudioOutput(isEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall0C10ControllerC14setAudioOutput9isEnabledySb_tF",
+            "mangledName": "$s13QboxPhoneCall0C10ControllerC14setAudioOutput9isEnabledySb_tF",
+            "moduleName": "QboxPhoneCall",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSpeaker",
+            "printedName": "setSpeaker(isEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall0C10ControllerC10setSpeaker9isEnabledySb_tF",
+            "mangledName": "$s13QboxPhoneCall0C10ControllerC10setSpeaker9isEnabledySb_tF",
+            "moduleName": "QboxPhoneCall",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "defaultToSpeaker",
+            "printedName": "defaultToSpeaker()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall0C10ControllerC16defaultToSpeakeryyF",
+            "mangledName": "$s13QboxPhoneCall0C10ControllerC16defaultToSpeakeryyF",
+            "moduleName": "QboxPhoneCall",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendDTMF",
+            "printedName": "sendDTMF(digit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall0C10ControllerC8sendDTMF5digitySS_tF",
+            "mangledName": "$s13QboxPhoneCall0C10ControllerC8sendDTMF5digitySS_tF",
+            "moduleName": "QboxPhoneCall",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startCall",
+            "printedName": "startCall()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall0C10ControllerC05startC0yyF",
+            "mangledName": "$s13QboxPhoneCall0C10ControllerC05startC0yyF",
+            "moduleName": "QboxPhoneCall",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "endCall",
+            "printedName": "endCall()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13QboxPhoneCall0C10ControllerC03endC0yyF",
+            "mangledName": "$s13QboxPhoneCall0C10ControllerC03endC0yyF",
+            "moduleName": "QboxPhoneCall",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13QboxPhoneCall0C10ControllerC",
+        "mangledName": "$s13QboxPhoneCall0C10ControllerC",
+        "moduleName": "QboxPhoneCall",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QboxPhoneCall"
+      },
+      {
         "kind": "TypeDecl",
         "name": "LoggerDelegate",
         "printedName": "LoggerDelegate",
@@ -495,601 +1341,11 @@
             "mangledName": "$sSY"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "QboxPhoneCall"
-      },
-      {
-        "kind": "Import",
-        "name": "WebRTC",
-        "printedName": "WebRTC",
-        "declKind": "Import",
-        "moduleName": "QboxPhoneCall"
-      },
-      {
-        "kind": "Import",
-        "name": "WebRTC",
-        "printedName": "WebRTC",
-        "declKind": "Import",
-        "moduleName": "QboxPhoneCall"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CallControllerDelegate",
-        "printedName": "CallControllerDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "callControllerDidConnect",
-            "printedName": "callControllerDidConnect()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13QboxPhoneCall0C18ControllerDelegateP04callD10DidConnectyyF",
-            "mangledName": "$s13QboxPhoneCall0C18ControllerDelegateP04callD10DidConnectyyF",
-            "moduleName": "QboxPhoneCall",
-            "genericSig": "<τ_0_0 where τ_0_0 : QboxPhoneCall.CallControllerDelegate>",
-            "sugared_genericSig": "<Self where Self : QboxPhoneCall.CallControllerDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:13QboxPhoneCall0C18ControllerDelegateP",
-        "mangledName": "$s13QboxPhoneCall0C18ControllerDelegateP",
-        "moduleName": "QboxPhoneCall",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CallControllerOption",
-        "printedName": "CallControllerOption",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "defaultToSpeaker",
-            "printedName": "defaultToSpeaker",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(QboxPhoneCall.CallControllerOption.Type) -> QboxPhoneCall.CallControllerOption",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CallControllerOption",
-                    "printedName": "QboxPhoneCall.CallControllerOption",
-                    "usr": "s:13QboxPhoneCall0C16ControllerOptionO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "QboxPhoneCall.CallControllerOption.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CallControllerOption",
-                        "printedName": "QboxPhoneCall.CallControllerOption",
-                        "usr": "s:13QboxPhoneCall0C16ControllerOptionO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:13QboxPhoneCall0C16ControllerOptionO16defaultToSpeakeryA2CmF",
-            "mangledName": "$s13QboxPhoneCall0C16ControllerOptionO16defaultToSpeakeryA2CmF",
-            "moduleName": "QboxPhoneCall"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CallControllerOption",
-                "printedName": "QboxPhoneCall.CallControllerOption",
-                "usr": "s:13QboxPhoneCall0C16ControllerOptionO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CallControllerOption",
-                "printedName": "QboxPhoneCall.CallControllerOption",
-                "usr": "s:13QboxPhoneCall0C16ControllerOptionO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13QboxPhoneCall0C16ControllerOptionO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s13QboxPhoneCall0C16ControllerOptionO2eeoiySbAC_ACtFZ",
-            "moduleName": "QboxPhoneCall",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13QboxPhoneCall0C16ControllerOptionO9hashValueSivp",
-            "mangledName": "$s13QboxPhoneCall0C16ControllerOptionO9hashValueSivp",
-            "moduleName": "QboxPhoneCall",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13QboxPhoneCall0C16ControllerOptionO9hashValueSivg",
-                "mangledName": "$s13QboxPhoneCall0C16ControllerOptionO9hashValueSivg",
-                "moduleName": "QboxPhoneCall",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13QboxPhoneCall0C16ControllerOptionO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s13QboxPhoneCall0C16ControllerOptionO4hash4intoys6HasherVz_tF",
-            "moduleName": "QboxPhoneCall",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:13QboxPhoneCall0C16ControllerOptionO",
-        "mangledName": "$s13QboxPhoneCall0C16ControllerOptionO",
-        "moduleName": "QboxPhoneCall",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CallController",
-        "printedName": "CallController",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "delegate",
-            "printedName": "delegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any QboxPhoneCall.CallControllerDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CallControllerDelegate",
-                    "printedName": "any QboxPhoneCall.CallControllerDelegate",
-                    "usr": "s:13QboxPhoneCall0C18ControllerDelegateP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13QboxPhoneCall0C10ControllerC8delegateAA0cD8Delegate_pSgvp",
-            "mangledName": "$s13QboxPhoneCall0C10ControllerC8delegateAA0cD8Delegate_pSgvp",
-            "moduleName": "QboxPhoneCall",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any QboxPhoneCall.CallControllerDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CallControllerDelegate",
-                        "printedName": "any QboxPhoneCall.CallControllerDelegate",
-                        "usr": "s:13QboxPhoneCall0C18ControllerDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13QboxPhoneCall0C10ControllerC8delegateAA0cD8Delegate_pSgvg",
-                "mangledName": "$s13QboxPhoneCall0C10ControllerC8delegateAA0cD8Delegate_pSgvg",
-                "moduleName": "QboxPhoneCall",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any QboxPhoneCall.CallControllerDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CallControllerDelegate",
-                        "printedName": "any QboxPhoneCall.CallControllerDelegate",
-                        "usr": "s:13QboxPhoneCall0C18ControllerDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13QboxPhoneCall0C10ControllerC8delegateAA0cD8Delegate_pSgvs",
-                "mangledName": "$s13QboxPhoneCall0C10ControllerC8delegateAA0cD8Delegate_pSgvs",
-                "moduleName": "QboxPhoneCall",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13QboxPhoneCall0C10ControllerC8delegateAA0cD8Delegate_pSgvM",
-                "mangledName": "$s13QboxPhoneCall0C10ControllerC8delegateAA0cD8Delegate_pSgvM",
-                "moduleName": "QboxPhoneCall",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(url:token:options:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CallController",
-                "printedName": "QboxPhoneCall.CallController",
-                "usr": "s:13QboxPhoneCall0C10ControllerC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[QboxPhoneCall.CallControllerOption]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CallControllerOption",
-                    "printedName": "QboxPhoneCall.CallControllerOption",
-                    "usr": "s:13QboxPhoneCall0C16ControllerOptionO"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13QboxPhoneCall0C10ControllerC3url5token7optionsACSS_SSSayAA0cD6OptionOGtcfc",
-            "mangledName": "$s13QboxPhoneCall0C10ControllerC3url5token7optionsACSS_SSSayAA0cD6OptionOGtcfc",
-            "moduleName": "QboxPhoneCall",
-            "declAttributes": [
-              "Required",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "setAudioInput",
-            "printedName": "setAudioInput(isEnabled:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13QboxPhoneCall0C10ControllerC13setAudioInput9isEnabledySb_tF",
-            "mangledName": "$s13QboxPhoneCall0C10ControllerC13setAudioInput9isEnabledySb_tF",
-            "moduleName": "QboxPhoneCall",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setAudioOutput",
-            "printedName": "setAudioOutput(isEnabled:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13QboxPhoneCall0C10ControllerC14setAudioOutput9isEnabledySb_tF",
-            "mangledName": "$s13QboxPhoneCall0C10ControllerC14setAudioOutput9isEnabledySb_tF",
-            "moduleName": "QboxPhoneCall",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setSpeaker",
-            "printedName": "setSpeaker(isEnabled:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13QboxPhoneCall0C10ControllerC10setSpeaker9isEnabledySb_tF",
-            "mangledName": "$s13QboxPhoneCall0C10ControllerC10setSpeaker9isEnabledySb_tF",
-            "moduleName": "QboxPhoneCall",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "defaultToSpeaker",
-            "printedName": "defaultToSpeaker()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13QboxPhoneCall0C10ControllerC16defaultToSpeakeryyF",
-            "mangledName": "$s13QboxPhoneCall0C10ControllerC16defaultToSpeakeryyF",
-            "moduleName": "QboxPhoneCall",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "sendDTMF",
-            "printedName": "sendDTMF(digit:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13QboxPhoneCall0C10ControllerC8sendDTMF5digitySS_tF",
-            "mangledName": "$s13QboxPhoneCall0C10ControllerC8sendDTMF5digitySS_tF",
-            "moduleName": "QboxPhoneCall",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "startCall",
-            "printedName": "startCall()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13QboxPhoneCall0C10ControllerC05startC0yyF",
-            "mangledName": "$s13QboxPhoneCall0C10ControllerC05startC0yyF",
-            "moduleName": "QboxPhoneCall",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "endCall",
-            "printedName": "endCall()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13QboxPhoneCall0C10ControllerC03endC0yyF",
-            "mangledName": "$s13QboxPhoneCall0C10ControllerC03endC0yyF",
-            "moduleName": "QboxPhoneCall",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:13QboxPhoneCall0C10ControllerC",
-        "mangledName": "$s13QboxPhoneCall0C10ControllerC",
-        "moduleName": "QboxPhoneCall",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "QboxPhoneCall"
-      },
-      {
-        "kind": "Import",
-        "name": "WebRTC",
-        "printedName": "WebRTC",
-        "declKind": "Import",
-        "moduleName": "QboxPhoneCall"
-      },
-      {
-        "kind": "Import",
-        "name": "Starscream",
-        "printedName": "Starscream",
-        "declKind": "Import",
-        "moduleName": "QboxPhoneCall"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/QboxPhoneCallSource\/QboxPhoneCall\/CallController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 359,
-      "length": 5,
-      "value": "false"
-    },
     {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/QboxPhoneCallSource\/QboxPhoneCall\/RTCClient.swift",
       "kind": "StringLiteral",
@@ -1098,9 +1354,16 @@
       "value": "\"audio\""
     },
     {
+      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/QboxPhoneCallSource\/QboxPhoneCall\/CallController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 359,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/QboxPhoneCallSource\/QboxPhoneCall\/SocketClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 342,
+      "offset": 350,
       "length": 5,
       "value": "false"
     }

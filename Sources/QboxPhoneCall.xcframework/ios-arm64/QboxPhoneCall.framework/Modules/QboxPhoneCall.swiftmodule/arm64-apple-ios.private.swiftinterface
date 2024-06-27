@@ -3,12 +3,49 @@
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name QboxPhoneCall
 import Foundation
 @_exported import QboxPhoneCall
-import Starscream
 import Swift
 import WebRTC
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public protocol WebSocketProvider : AnyObject {
+  var delegate: (any QboxPhoneCall.WebSocketProviderDelegate)? { get set }
+  init()
+  func create(request: Foundation.URLRequest)
+  func connect()
+  func disconnect()
+  func send(string: Swift.String)
+}
+public protocol WebSocketProviderDelegate : AnyObject {
+  func webSocketDidConnect()
+  func webSocketDidDisconnect()
+  func websocketDidReceiveMessage(_ text: Swift.String)
+  func websocketDidReceiveData(_ data: Foundation.Data)
+}
+public protocol CallControllerDelegate {
+  func callControllerDidConnect()
+}
+public enum CallControllerOption {
+  case defaultToSpeaker
+  public static func == (a: QboxPhoneCall.CallControllerOption, b: QboxPhoneCall.CallControllerOption) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class CallController {
+  required public init(ws: any QboxPhoneCall.WebSocketProvider, url: Swift.String, token socketToken: Swift.String, options controllerOptions: [QboxPhoneCall.CallControllerOption])
+  @objc deinit
+}
+extension QboxPhoneCall.CallController {
+  public func setAudioInput(isEnabled: Swift.Bool)
+  public func setAudioOutput(isEnabled: Swift.Bool)
+  public func setSpeaker(isEnabled: Swift.Bool)
+  public func defaultToSpeaker()
+  public func sendDTMF(digit: Swift.String)
+  public func startCall()
+  public func endCall()
+}
 public protocol LoggerDelegate {
   func loggerError(_ module: Swift.String, message: Swift.String)
   func loggerDebug(_ module: Swift.String, message: Swift.String)
@@ -25,33 +62,8 @@ public enum LogModule : Swift.String {
     get
   }
 }
-public protocol CallControllerDelegate {
-  func callControllerDidConnect()
-}
-public enum CallControllerOption {
-  case defaultToSpeaker
-  public static func == (a: QboxPhoneCall.CallControllerOption, b: QboxPhoneCall.CallControllerOption) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-public class CallController {
-  public var delegate: (any QboxPhoneCall.CallControllerDelegate)?
-  required public init(url: Swift.String, token socketToken: Swift.String, options controllerOptions: [QboxPhoneCall.CallControllerOption])
-  @objc deinit
-}
-extension QboxPhoneCall.CallController {
-  public func setAudioInput(isEnabled: Swift.Bool)
-  public func setAudioOutput(isEnabled: Swift.Bool)
-  public func setSpeaker(isEnabled: Swift.Bool)
-  public func defaultToSpeaker()
-  public func sendDTMF(digit: Swift.String)
-  public func startCall()
-  public func endCall()
-}
+extension QboxPhoneCall.CallControllerOption : Swift.Equatable {}
+extension QboxPhoneCall.CallControllerOption : Swift.Hashable {}
 extension QboxPhoneCall.LogModule : Swift.Equatable {}
 extension QboxPhoneCall.LogModule : Swift.Hashable {}
 extension QboxPhoneCall.LogModule : Swift.RawRepresentable {}
-extension QboxPhoneCall.CallControllerOption : Swift.Equatable {}
-extension QboxPhoneCall.CallControllerOption : Swift.Hashable {}
