@@ -1457,21 +1457,21 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/QboxPhoneCallSource\/QboxPhoneCall\/RTCClient.swift",
+      "filePath": "\/Users\/inmetaai\/XcodeProjects\/QboxPhoneCallSource\/QboxPhoneCall\/RTCClient.swift",
       "kind": "StringLiteral",
       "offset": 887,
       "length": 7,
       "value": "\"audio\""
     },
     {
-      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/QboxPhoneCallSource\/QboxPhoneCall\/CallController.swift",
+      "filePath": "\/Users\/inmetaai\/XcodeProjects\/QboxPhoneCallSource\/QboxPhoneCall\/CallController.swift",
       "kind": "BooleanLiteral",
       "offset": 359,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nurkentileubergenov\/XCodeProjects\/QboxPhoneCallSource\/QboxPhoneCall\/SocketClient.swift",
+      "filePath": "\/Users\/inmetaai\/XcodeProjects\/QboxPhoneCallSource\/QboxPhoneCall\/SocketClient.swift",
       "kind": "BooleanLiteral",
       "offset": 350,
       "length": 5,

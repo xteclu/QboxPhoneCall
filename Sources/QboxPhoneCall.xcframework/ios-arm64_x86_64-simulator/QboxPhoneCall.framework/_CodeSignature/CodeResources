@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/QboxPhoneCall.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		xyzZa6Qln52aOFl/HeGkik7D5pA=
+		LeKwAiLHE+gliZXg1lO7SuPXRng=
 		</data>
 		<key>Modules/QboxPhoneCall.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/QboxPhoneCall.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NMMsSzU7U3jazOa662UyvYosh94=
+		HWiHIUPaX5uP0xIvs0SQzxcMjnk=
 		</data>
 		<key>Modules/QboxPhoneCall.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		xyzZa6Qln52aOFl/HeGkik7D5pA=
+		LeKwAiLHE+gliZXg1lO7SuPXRng=
 		</data>
 		<key>Modules/QboxPhoneCall.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/QboxPhoneCall.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EJbLo+dhrLTk783eoGOZ9kS5ch8=
+		fUpXOQgI6Wzy/RXNGzPyeEpleDg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nwy6kkBD2fhjU3CsJ0WyRrVMcVx7g9nyMgVB4MKWeQc=
+			4rj4gt6pExQWEEyKbp3us+yDcnEbC//dOVvtiRB3Dmk=
 			</data>
 		</dict>
 		<key>Modules/QboxPhoneCall.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			merK1ahVCfb3sxr6J0m4rkQMOEm9tBY5/KZXbaKKMlg=
+			hm3JJIVpFJhyY3syidCglQPVoe1NzcJbbfUiOZZfUlA=
 			</data>
 		</dict>
 		<key>Modules/QboxPhoneCall.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nwy6kkBD2fhjU3CsJ0WyRrVMcVx7g9nyMgVB4MKWeQc=
+			4rj4gt6pExQWEEyKbp3us+yDcnEbC//dOVvtiRB3Dmk=
 			</data>
 		</dict>
 		<key>Modules/QboxPhoneCall.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ki6m6F+rcgX+hLFjsdCvtjCaBRbGow2Oj5xqk6Kovew=
+			C5VyZSdoBUnPcgeNSpZPg0LSylOzFn5l7TROCCTmP9w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

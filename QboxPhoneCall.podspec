@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'QboxPhoneCall'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.license          = { :type => 'MIT', :text => <<-LICENSE
     Copyright (c) 2023 Q19
     
