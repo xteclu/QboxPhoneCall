@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'QboxPhoneCall'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.license          = { :type => 'MIT', :text => <<-LICENSE
     Copyright (c) 2023 Q19
     
@@ -33,6 +33,5 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/xteclu/QboxPhoneCall.git', :tag => s.version.to_s }
   s.ios.deployment_target = '12.0'
   s.vendored_frameworks = 'Sources/QboxPhoneCall.xcframework'
-  s.dependency 'WebRTC-lib'
   
 end
